@@ -1,0 +1,32 @@
+.parent {
+  background-color: grey;
+  min-height: 50vh;
+  padding: 1rem;
+  position: relative;
+}
+
+.c1 {
+  background: red;
+  position: sticky;
+  top: 20px;
+}
+
+.c2 {
+  background-color: green;
+  position: relative;
+  left: 20px;
+  bottom: 40px;
+}
+
+.c3 {
+  background-color: blue;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+
+.parent > div {
+  min-height: 100px;
+  color: white;
+}
+/*   postions: static, initial, inheirt, relative, abcolute, fixed, sticky*/
